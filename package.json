@@ -1,0 +1,10 @@
+{
+  "name": "quiet-room",
+  "version": "1.0.0",
+  "description": "아무도 듣지 않는 방 - 3D 고해실 접속 서버",
+  "main": "server.js",
+  "private": true,
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "three": "0.128.0", "ws": "^8.18.0" }
+}
